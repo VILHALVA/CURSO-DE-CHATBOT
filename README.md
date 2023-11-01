@@ -2,6 +2,7 @@
 👨‍⚖️CHATBOT É UM PROGRAMA DE COMPUTADOR QUE SIMULA UMA CONVERSA HUMANA POR MEIO DE MENSAGENS DE TEXTO OU VOZ. ELE É PROJETADO PARA INTERAGIR COM OS USUÁRIOS DE FORMA AUTOMATIZADA, RESPONDENDO PERGUNTAS, FORNECENDO INFORMAÇÕES E REALIZANDO TAREFAS ESPECÍFICAS.
 
 [![GitHub Repo stars](https://img.shields.io/badge/VILHALVA-GITHUB-03A9F4?logo=github)](https://github.com/VILHALVA) 
+[![GitHub Repo stars](https://img.shields.io/badge/VEJA%20OS-VIDEOS-03A9F4?logo=youtube)](https://www.youtube.com/@vilhalva100/search?query=chatbot)
 [![GitHub Repo stars](https://img.shields.io/badge/VEJA-DOCUMENTAÇÃO-03A9F4?logo=google)](https://www.chatbot.com/docs/)
 
 <img src="https://plugg.to/wp-content/uploads/2017/11/chatbot-conversas-1.png" width="280"> <br>
