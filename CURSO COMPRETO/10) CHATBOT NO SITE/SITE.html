@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chatbot no Meu Site</title>
+</head>
+<body>
+    <h1>Chatbot no Meu Site</h1>
+    <div id="chatbox">
+        <div id="chat"></div>
+        <input id="user_message" type="text" placeholder="Digite sua mensagem">
+        <button onclick="sendMessage()">Enviar</button>
+    </div>
+
+    <script>
+        function sendMessage() {
+            const userMessage = document.getElementById("user_message").value;
+            document.getElementById("chat").innerHTML += `Você: ${userMessage}<br>`;
+            document.getElementById("user_message").value = "";
+
+            fetch("/get_response", {
+                method: "POST",
+                body: new URLSearchParams({ user_message: userMessage }),
+                headers: {
+                    "Content-Type": "application/x-www-form-urlencoded",
+                },
+            })
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById("chat").innerHTML += `Bot: ${data}<br>`;
+                });
+        }
+    </script>
+</body>
+</html>
